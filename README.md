@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/quiron-logo-preto.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/logo-quiron-logo-com-fundo.svg">
-  <img src="assets/logo-quiron-light.svg" alt="Quiron" height="60">
+  <img src="assets/logo-quiron-light.svg" alt="Quiron" height="100">
 </picture>
 # Uso de modelos ARMA_GARCH para previsão de risco no Ibovespa
 Prever diariamente o risco de perdas do Ibovespa e de ações da B3 com modelos GARCH sob diferentes distribuições, compará-los com métodos tradicionais e testar fora da amostra, inclusive em crises como 2020, qual deles mede o risco de forma mais confiável. 
