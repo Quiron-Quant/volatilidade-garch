@@ -3,5 +3,5 @@ Prever diariamente o risco de perdas do Ibovespa e de ações da B3 com modelos 
 
 ## Perguntas da pesquisa:
 - Assumir que os retornos são normais subestima o risco das ações brasileiras?
-- E qual modelo da família ARMA-GARCH prevê melhor o VaR e o Expected Shortfall, quando avaliado só com informação disponível em cada dia?
+- Qual modelo da família ARMA-GARCH prevê melhor o VaR e o Expected Shortfall, quando avaliado só com informação disponível em cada dia?
 
