@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/quiron-logo-com-fundo.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/quiron-logo-branco.svg">
     <img src="assets/quiron-logo-preto.svg" alt="Quiron" height="100">
   </picture>
 </p>
