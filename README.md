@@ -1,8 +1,6 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Quiron-Quant/volatilidade-garch/raw/main/assets/quiron-logo-branco.svg">
-    <img src="assets/quiron-logo-preto.svg" alt="Quiron" height="100">
-  </picture>
+  <img src="assets/quiron-logo-preto.svg#gh-light-mode-only" alt="Quiron" height="100">
+  <img src="assets/quiron-logo-branco.svg#gh-dark-mode-only" alt="Quiron" height="100">
 </p>
 
 # Uso de modelos ARMA-GARCH para previsão de risco no Ibovespa
