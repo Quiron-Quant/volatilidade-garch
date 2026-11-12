@@ -10,7 +10,7 @@ Prever diariamente o risco de perdas do Ibovespa e de ações da B3 com modelos 
 - Qual modelo da família ARMA-GARCH prevê melhor o VaR e o Expected Shortfall, quando avaliado só com informação disponível em cada dia?
 
 <p align="center">
-<img src="assets/logo-usp.webp" alt="USP-Brasao" height="100">
+<img src="assets/logo-usp.webp" alt="USP-Brasao" height="150">
 </p>
   
 
