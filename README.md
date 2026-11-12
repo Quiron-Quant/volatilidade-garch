@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/quiron-logo-com-fundo.svg" alt="Quiron" height="80">
+<img src="assets/quiron-logo-com-fundo.svg" alt="Quiron" height="100">
 </p>
   
 # Uso de modelos ARMA_GARCH para previsão de risco no Ibovespa
