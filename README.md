@@ -1,19 +1,51 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Quiron-Quant/volatilidade-garch/raw/main/assets/quiron-logo-branco.svg">
-    <img src="assets/quiron-logo-preto.svg" alt="Quiron" height="100">
-  </picture>
-</p>
+<!-- (o bloco dos logos que você já fez fica aqui em cima) -->
 
-# Uso de modelos ARMA-GARCH para previsão de risco no Ibovespa
+# <Nome do projeto>
 
-Prever diariamente o risco de perdas do Ibovespa e de ações da B3 com modelos GARCH sob diferentes distribuições, compará-los com métodos tradicionais e testar fora da amostra, inclusive em crises como 2020, qual deles mede o risco de forma mais confiável.
+<Uma ou duas frases: o que o projeto faz e por quê.>
 
-## Perguntas de pesquisa
+## Pergunta de pesquisa
+<A pergunta do plano, com suas palavras.>
 
-- Assumir que os retornos são normais subestima o risco das ações brasileiras?
-- Qual modelo da família ARMA-GARCH prevê melhor o VaR e o Expected Shortfall, quando avaliado só com informação disponível em cada dia?
+## Escopo
+- **Ativos:** <a definir na reunião>
+- **Período:** <data inicial> a <data de corte>
+- **Modelos:** <quais e com quais distribuições>
+- **Medidas de risco:** <VaR e ES, níveis, horizonte>
+- **Avaliação:** <como os modelos serão testados>
 
-<p align="center">
-  <img src="assets/logo-usp.webp" alt="Brasão da USP" height="150">
-</p>
+## Estrutura do repositório
+```
+volatilidade-garch/
+├── assets/        # logos e imagens do README
+├── data/          # <comentário>
+├── src/           # <comentário>
+├── notebooks/     # <comentário>
+├── reports/       # <comentário>
+├── requirements.txt
+└── README.md
+```
+
+## Como reproduzir
+<Por enquanto: clonar, criar o ambiente, instalar o requirements.txt.>
+
+## Cronograma
+| Fase | Semanas | Entregável |
+|---|---|---|
+| 0 – Preparação | 0 | <...> |
+| 1 – Dados e EDA | 1–2 | <...> |
+| 2 – Modelagem | 3–4 | <...> |
+| 3 – VaR e janela móvel | 5–6 | <...> |
+| 4 – Backtesting | 7–8 | <...> |
+| 5 – Entrega | 9–10 | <...> |
+
+## Decisões registradas
+<Vazio por enquanto. Cada decisão entra com data e motivo.>
+
+## Equipe
+| Nome | Frente | GitHub |
+|---|---|---|
+| <...> | <A ou B> | <@usuario> |
+
+---
+Quiron · Análise Quantitativa de Finanças · ICMC-USP
