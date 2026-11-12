@@ -1,7 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/quiron-logo-preto.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/logo-quiron-logo-com-fundo.svg">
-  <img src="assets/logo-quiron-light.svg" alt="Quiron" height="100">
+  <img src="assets/logo-quiron-logo-com-fundo.svg" alt="Quiron" height="100">
 </picture>
 
 # Uso de modelos ARMA-GARCH para previsão de risco no Ibovespa
