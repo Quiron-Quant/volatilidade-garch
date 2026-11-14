@@ -1,6 +1,6 @@
-#Notas dos dados utilizados:
+# Notas dos dados utilizados:
 
-##Fonte e período:
+## Fonte e período:
 -Fonte: Yahoo Finance, nativo da biblioteca YFinance
 
-#
+

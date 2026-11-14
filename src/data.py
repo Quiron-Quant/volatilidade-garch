@@ -59,8 +59,8 @@ if __name__ == "__main__":
 
     print(retorno.describe()) # Resumo estatistico
 
-    print(retorno.idxmax()) #Mostra o maior retorno da serie
-    print(retorno.idxmin()) #Mostra o menor retorno da serie
+    print(retorno.idxmax()) #Mostra a data do maior retorno da serie
+    print(retorno.idxmin()) #Mostra a data do menor retorno da serie
     
 
 
