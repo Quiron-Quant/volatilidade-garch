@@ -1,6 +1,7 @@
 import pandas as pd
 import yfinance as yf
 import numpy as np
+import os
 
 
 #Configuracões inicais(testes)
@@ -30,6 +31,14 @@ def calcular_retornos(precos):
 
     return retorno
 
+def salvar_dados(precos, retorno):
+    """Salva os dados de preços e retornos em um arquivo do tipo Parquet"""
+    os.makedirs("data", exist_ok=True) #Cria um novo diretório
+
+    retorno.to_parquet("data/retornos.parquet") #Salva os retorono em um arquivo parquet
+    precos.to_parquet("data/precos.parquet") #Salva os precos em um arquivo parquet
+    #Parquet -> um tipo de arquivo binario parecido com CSV que guarda etiquetas para cada tipo de elemento, podendo ser transfomrado em um DataFrame
+
 
 
 if __name__ == "__main__":
@@ -44,7 +53,9 @@ if __name__ == "__main__":
 
     retorno = calcular_retornos(precos)
 
-    print(retorno.head)
+    salvar_dados(precos, retorno)
+
+    print(retorno.head())
 
 
     
