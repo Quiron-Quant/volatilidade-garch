@@ -30,6 +30,22 @@ Prever diariamente o risco de perdas do Ibovespa e de ações da B3 com modelos 
 - **Código reutilizável:** funções em `src/`, análises em `notebooks/`.
 - **Escopo fechado:** ideias novas vão para a lista de próximos passos.
 
+## Ativos
+| Ativo| Setor da economia| Obs|
+|---|---|---|
+| BVSP| Índice |Referẽncia do projeto|
+|PETR4 | Petróleo |Choques políticos e do petróleo |
+| VALE3 | Mineração | Commodities e China  |
+| ITUB4 | Banco privado | Maior banco, vol. baixa  |
+| BBDC4 | Banco privado | Par de comparação com o Itaú  |
+| BBAS3 | Banco estatal | Risco político  |
+|  WEGE3|  Bens de capital| Crescimento estável, defensiva   |
+| LREN3 | Varejo | Consumos domésticos, Covid  |
+| ELET3 | Energia e Elétrica | Privatização em 2022, saltos  |
+| GGBR4 | Siderurgia | Cíclica, aço e açúcar  |
+| EMBR3 | Aeronáutica | Exportadora, quedaa em 2020  |
+
+
 ## Estrutura do repositório
 
 ```
@@ -49,6 +65,7 @@ volatilidade-garch/
 ```
 
 ## Como reproduzir
+
 
 ```bash
 git clone https://github.com/Quiron-Quant/volatilidade-garch.git
