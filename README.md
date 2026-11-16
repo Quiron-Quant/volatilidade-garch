@@ -43,7 +43,7 @@ Prever diariamente o risco de perdas do Ibovespa e de ações da B3 com modelos 
 | LREN3 | Varejo | Consumos domésticos, Covid  |
 | ELET3 | Energia e Elétrica | Privatização em 2022, saltos  |
 | GGBR4 | Siderurgia | Cíclica, aço e açúcar  |
-| EMBR3 | Aeronáutica | Exportadora, quedaa em 2020  |
+| EMBR3 | Aeronáutica | Exportadora, quedas em 2020  |
 
 
 ## Estrutura do repositório
