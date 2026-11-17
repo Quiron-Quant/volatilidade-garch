@@ -14,7 +14,7 @@ Prever diariamente o risco de perdas do Ibovespa e de ações da B3 com modelos 
 
 ## Escopo
 
-- **Ativos:** Ibovespa e cerca de 10 ações líquidas da B3 *(lista a definir na primeira reunião)*
+- **Ativos:** Ibovespa e cerca de 10 ações líquidas da B3 
 - **Período:** dados diários de 2010 até a data de corte *(a definir)*
 - **Modelos de variância:** GARCH(1,1), GJR-GARCH e EGARCH
 - **Distribuições dos erros:** normal, t de Student e t assimétrica
@@ -87,11 +87,6 @@ python teste_download.py
 | 4 – Backtesting | 7–8 | `notebooks/03_backtest.ipynb` com tabela final e conclusão |
 | 5 – Relatório e apresentação | 9–10 | Relatório, repositório público, apresentação e post |
 
-## Decisões registradas
-
-| Data | Decisão | Motivo |
-|---|---|---|
-| | | |
 
 ## Equipe
 
