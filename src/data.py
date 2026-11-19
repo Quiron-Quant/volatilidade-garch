@@ -5,7 +5,8 @@ import os
 
 
 #Configuracões inicais(testes)
-TICKERS = ["^BVSP", "PETR4.SA", "VALE3.SA"]
+TICKERS = ["^BVSP", "PETR4.SA", "VALE3.SA", "EMBJ3.SA", "GGBR4.SA", "AXIA3.SA",
+            "LREN3.SA", "WEGE3.SA", "BBAS3.SA", "BBDC3.SA", "ITUB4.SA"]
 INICIO = "2010-01-01"
 FIM = "2026-10-31"
 
@@ -44,25 +45,27 @@ def salvar_dados(precos, retorno):
 if __name__ == "__main__":
     precos = baixar_precos(TICKERS, INICIO, FIM)
     precos = limpar_precos(precos)
-
-    print(precos.head()) #Acessa as primeiras n linhas da tabela. Sem argumento, são as 5 primeiras
-    print(precos.tail()) #Acessa as ultimas n linhas da tabela. Sem argumento, são as 5 últimas
-    print(precos.shape) #Devolve uma tupla de dois elementos, sendo a quantidade de linahas e colunas, respectivamente
-    print(precos.isna().sum()) #Conta e soma a quantidade de elementos NaN (Not a Number)
-    print(precos[precos["^BVSP"].isna()]) #Usa os dias em que a função "isna" devolve True como filtro
+    
+    print(precos.head())
+    print(precos.tail())
+    print(precos.isna().sum()) 
+    print(precos[precos["^BVSP"].isna()]) #Apenas o dias da Ibovespa do feriado, a função de limpar ja resolve
 
     retorno = calcular_retornos(precos)
-
+    
     salvar_dados(precos, retorno)
-
+    
     print(retorno.head())
-
+    
     print(retorno.describe()) # Resumo estatistico
 
     print(retorno.idxmax()) #Mostra a data do maior retorno da serie
     print(retorno.idxmin()) #Mostra a data do menor retorno da serie
+        
     
 
+
+  
 
     
 
