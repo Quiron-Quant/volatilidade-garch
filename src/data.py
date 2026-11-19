@@ -46,10 +46,12 @@ if __name__ == "__main__":
     precos = baixar_precos(TICKERS, INICIO, FIM)
     precos = limpar_precos(precos)
     
-    print(precos.head())
-    print(precos.tail())
-    print(precos.isna().sum()) 
+    print(precos.head()) #Acessa as primeiras n linhas da tabela. Sem argumento, são as 5 primeiras
+    print(precos.tail()) #Acessa as ultimas n linhas da tabela. Sem argumento, são as 5 últimas
+    print(precos.isna().sum()) #Conta e soma a quantidade de elementos NaN (Not a Number)
     print(precos[precos["^BVSP"].isna()]) #Apenas o dias da Ibovespa do feriado, a função de limpar ja resolve
+
+    print(precos.shape) #Devolve uma tupla de dois elementos, sendo a quantidade de linahas e colunas, respectivamente
 
     retorno = calcular_retornos(precos)
     
