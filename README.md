@@ -41,7 +41,7 @@ Prever diariamente o risco de perdas do Ibovespa e de ações da B3 com modelos 
 | BBAS3 | Banco estatal | Risco político  |
 |  WEGE3|  Bens de capital| Crescimento estável, defensiva   |
 | LREN3 | Varejo | Consumos domésticos, Covid  |
-| ELET3 | Energia e Elétrica | Privatização em 2022, saltos  |
+| AXIA3 | Energia e Elétrica | Privatização em 2022, saltos  |
 | GGBR4 | Siderurgia | Cíclica, aço e açúcar  |
 | EMBR3 | Aeronáutica | Exportadora, quedas em 2020  |
 
